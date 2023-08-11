@@ -1,0 +1,122 @@
+/* Reset some default styles */
+body, div, h2, label, input, span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html{
+    background-color: rgb(26, 148, 255);
+}
+
+/* Apply styles to the form container */
+#mc_embed_signup {
+    background: #9bcaf1;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 700px;
+    margin: 10vh auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+/* Apply styles to the form title */
+#mc_embed_signup h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+/* Apply styles to the asterisk */
+.asterisk {
+    color: #f00;
+}
+
+/* Apply styles to the form fields */
+.mc-field-group {
+    margin-bottom: 15px;
+}
+
+.mc-field-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(0, 0, 0);
+}
+
+.mc-field-group input[type="email"],
+.mc-field-group input[type="text"],
+.mc-field-group input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+}
+
+.datefield {
+    display: flex;
+    align-items: center;
+}
+
+.subfield {
+    margin-right: 5px;
+}
+
+.small-meta {
+    font-size: 12px;
+    color: #777;
+}
+
+/* Apply styles to the submit button */
+#mc-embedded-subscribe {
+    background-color: #0088c2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#mc-embedded-subscribe:hover {
+    background-color: #005577;
+}
+
+/* Apply styles to the referral badge */
+.refferal_badge {
+    width: 220px;
+    height: 40px;
+}
+
+/* Apply styles to the error and success messages */
+.response {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #f00;
+    display: none;
+}
+
+.back-to-menu {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-to-menu a {
+    display: inline-block;
+    background-color: #ffffff;
+    color: rgb(32, 18, 18);
+    padding: 8px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.back-to-menu a:hover {
+    background-color: #d8d8d8;
+}
+
+.back-to-menu a::before {
+    content: "\2190 "; /* Unicode arrow character (left-pointing arrow) */
+}
