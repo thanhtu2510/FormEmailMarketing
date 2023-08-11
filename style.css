@@ -6,12 +6,12 @@ body, div, h2, label, input, span {
 }
 
 html{
-    background-color: rgb(26, 148, 255);
+    background-color: rgb(86, 165, 255);
 }
 
 /* Apply styles to the form container */
 #mc_embed_signup {
-    background: #9bcaf1;
+    background: #FFE880;
     font-family: Helvetica, Arial, sans-serif;
     width: 700px;
     margin: 10vh auto;
